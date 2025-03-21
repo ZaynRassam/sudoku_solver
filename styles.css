@@ -10,6 +10,8 @@
     display: flex;
     flex-wrap: wrap;
     height: 80px;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .button {
