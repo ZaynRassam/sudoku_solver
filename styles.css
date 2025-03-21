@@ -1,0 +1,98 @@
+.myDiv {
+    /*border: 5px outset red;*/
+    background-color: lightblue;
+    text-align: center;
+    margin: 0 40% 0 40%;
+}
+
+.div_buttons {
+    /*border: 5px outset red;*/
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+.button {
+    flex-direction: row;
+    flex-grow: 4;
+}
+
+.about {
+    text-align: center;
+}
+
+.sudoku-parent {
+    /*border: 5px outset red;*/
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* from codepen.io */
+.six h1 {
+  text-align: center;
+  color:#222; font-size:30px; font-weight:400;
+  text-transform: uppercase;
+  word-spacing: 1px; letter-spacing:2px; color:#c50000;
+}
+.six h1 span {
+  line-height:2em; padding-bottom:15px;
+  text-transform: none;
+  font-size:.7em;
+  font-weight: normal;
+  font-style: italic; font-family: "Playfair Display","Bookman",serif;
+  color:#999; letter-spacing:-0.005em; word-spacing:1px;
+  letter-spacing:none;
+}
+.six h1:after, .six h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45px;
+  height: 4px;
+  content: "";
+  right: 45px;
+  margin:auto;
+  background-color: #ccc;
+}
+.six h1:before {
+background-color:#d78b8b;
+  left:45px; width:90px;
+}
+
+
+
+/* From Uiverse.io by barisdogansutcu */
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(0, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgba(255, 0, 0, 0.52) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(55, 80%, 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgba(220, 204, 24, 0.75) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
